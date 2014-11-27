@@ -38,3 +38,8 @@ sudo apt-get --purge remove -y libscsynth1
 sudo apt-get autoremove -y
 sudo apt-get clean
 rm -rf ../python_games
+sudo mkdir ~/desktop_icons
+sudo mv ~/Desktop/midori.desktop ~/desktop_icons
+sudo mv ~/Desktop/scratch.desktop ~/desktop_icons
+sudo mv ~/Desktop/wolfram-mathematica.desktop ~/desktop_icons
+sudo mv ~/Desktop/wolfram-language.desktop ~/desktop_icons
